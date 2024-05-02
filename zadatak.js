@@ -52,8 +52,8 @@ function isMoreThan10(password){
 }
 
 function skratiNa10(password){
-   /* if ( password.length <= 10) return password;
-    var tmpPassword = "";
+    if ( password.length <= 10) return password;
+    /*var tmpPassword = "";
     for (let i = 0; i < 10; i++) {
         var charAtIndex = password.charAt(i);
         tmpPassword += charAtIndex;
